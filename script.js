@@ -166,3 +166,9 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+var Send=document.getElementById("Send-Message")
+function send()
+{
+    send.textContent="Message Send"
+    alert("Message Has Been Send")
+}
